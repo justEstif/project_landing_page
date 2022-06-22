@@ -1,0 +1,29 @@
+{
+  "name": "project_landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/main.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/main.css",
+    "serve": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justEstif/project_landing_page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justEstif/project_landing_page/issues"
+  },
+  "homepage": "https://github.com/justEstif/project_landing_page#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "tailwindcss": "^3.1.4"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
